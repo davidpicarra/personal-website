@@ -1,8 +1,9 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
-  </div>
+  <section class="section">
+    <div class="container">
+      <router-view></router-view>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -11,13 +12,10 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+<style lang="scss">
+$navbar-item-img-max-height: 3.75rem;
+$primary: #2c3e50;
+@import '~bulma';
+$fa-font-path: '~font-awesome/fonts';
+@import '~font-awesome/scss/font-awesome.scss';
 </style>
