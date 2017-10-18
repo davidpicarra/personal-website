@@ -13,8 +13,6 @@ export default {
 </script>
 
 <style lang="scss">
-$navbar-item-img-max-height: 3.75rem;
-$primary: #2c3e50;
 @import '~bulma';
 $fa-font-path: '~font-awesome/fonts';
 @import '~font-awesome/scss/font-awesome.scss';
