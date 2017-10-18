@@ -37,4 +37,4 @@ jobs:
 
       - run: yarn build
 
-      - run: scp -r dist/* $(droplet):~/html
+      - run: scp -r dist/* $droplet:~/html
