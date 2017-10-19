@@ -1,6 +1,6 @@
 <template>
-  <div class="columns">
-    <div class="column is-half is-offset-one-quarter is-dark">
+  <div class="columns is-mobile">
+    <div class="column is-half-desktop is-offset-one-quarter-desktop is-dark">
       <div class="notification has-text-centered">
         <p class="title">David Piçarra</p>
         <p class="subtitle">Full stack developer</p>
