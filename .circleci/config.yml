@@ -31,9 +31,9 @@ jobs:
           at: ~/project
       - run: npm run build
       - persist_to_workspace:
-          root: ~/project
+          root: .
           paths:
-            - dist/*
+            - dist
 
   test:
     <<: *defaults
