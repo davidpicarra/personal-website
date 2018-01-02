@@ -46,7 +46,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/project
+          at: ~/project/davidpicarra
       - run: scp -r -o StrictHostKeyChecking=no dist/* $droplet:~/html
 
 workflows:
