@@ -31,7 +31,7 @@ jobs:
           at: ~/project
       - run: npm run build
       - persist_to_workspace:
-          root: .
+          root: ~/project/davidpicarra
           paths:
             - dist
 
@@ -46,7 +46,7 @@ jobs:
     <<: *defaults
     steps:
       - attach_workspace:
-          at: ~/project/davidpicarra
+          at: ~/project
       - run: scp -r -o StrictHostKeyChecking=no dist/* $droplet:~/html
 
 workflows:
