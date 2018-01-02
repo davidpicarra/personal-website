@@ -16,6 +16,6 @@ Vue.use(VueAnalytics, {
 new Vue({
   el: '#app',
   router,
-  template: '<App/>',
-  components: { App }
+  components: { App },
+  template: '<App/>'
 })
