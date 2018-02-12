@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/davidpicarra
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://davidpicarra.com
+  * I am davidpicarra (https://keybase.io/davidpicarra) on keybase.
+  * I have a public key with fingerprint 6956 6C87 FCE1 A23F E85A  712C 89CE 1978 8314 B800
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012098746a9ce9cf35bc41ae7d7c6f364ae8275b70ce780f7b9a62dc8dcb9a33c1550a",
+      "fingerprint": "69566c87fce1a23fe85a712c89ce19788314b800",
+      "host": "keybase.io",
+      "key_id": "89ce19788314b800",
+      "kid": "01015ea7c6019833dc9b833e82628f22c246a90c3a0103825d1b47c2bc7da8e02b880a",
+      "uid": "99e5d26197d5374170587763c3046019",
+      "username": "davidpicarra"
+    },
+    "service": {
+      "hostname": "davidpicarra.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1518449889,
+  "expire_in": 157680000,
+  "prev": "e14d19cc032a7dc0c64fb20e27b668cf0ef2d121235c4e516c6545114424d5a5",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMNoAnicbVJ7TFV1HL88RMAUmhBSCO0wSR6j835cRNAc+KhcwMBceDnnd37ncgTu
+uffch4JYKUmDFoFGJBFGIqxpQMTtEhYNVB6pRIrNIFIjbA4drXDlCOoclv/51+/x
+/by+333Pr/QxBHpVjITvLwvpNnhd7Gt0GnYf6rp1ABEUsRgxHkAK4NIBC0Vod5gK
+ZBExIiiGoxzLkDTPAcgBiaAEQGI8ZEQG0BJBkzxkcYYSGBRAhkUlRuB4GhcBKwLt
+RhAAoyiURxIQSbaYoWpVZYtDk6U5iqYBy0gAYjxOSJCleAbDAau5YBzDsgRGCiyK
+asR8xa4ztHACb4eJsqL9aQ/TUrxH4B/mRjEK8lpIFONYghABJ2iHFpbGWQnHAa63
+hAKC15AEi1MiJpAMwAXAiDwLUVxg2aXcziU5joOUiNOalUgRDIkxKMUyDE0AAiV1
+Bx1oh6qFL4IaWuRdsmiVAa+qPHIwAdEqLhlAfbh6N49AJQKlSNOwqopDAUqhVs13
+OKxGnewoturofVAw/a9jEmSLqI1TI7igapcVC2LENCRwyLowRmEsSXIsyyUgcL9V
+VqFJ1hEUQ2sTQlHdBro0SYiRIsYBgBI4z4gABTQpCTgKcUagaRZIKJRwEcMxnKAA
+CSmMBjRFUhhGkjgpUjyF6J3ZLApiZLWYvFmTtMtmC+9wqhA52N/3iq/BK9Dgt8xb
+XzNDYEDww+Ubzw02ND71wB9v66gsCzXGp0WJORObhIyG8u4px0TPtrSIFD+fcnNb
+Cdi0MnJ3YIBl8a16m0GJ+N2wJjmu5I8ZcqMtpfTavOCpzv7R+0bsuvXK90dgQ1DD
+by37jrt3PBP3fHQImXx7RRs7yMsu81d3lqecWF2uJtdOU8Sa6gAhqXSydk9D9paF
++bfXqR8yHdRQmHG05HI683rO3rL0wsdvGMyPnTwRNIfdrWkv/nfeUjOGZoyW5n2x
+/f3O+m9uJyn29LvS2NRyV11adZZa2Kf6DY6HRSa+tyXm/Mc5Z7/9K3o2oHn452cH
+7luvb0yqquy9CeaibklvTOzZEJkVvRVJnavY9uX260N1c+8WXTmWe7R1zHLpudqO
+jF1dO8+dW0A+WzQp7U0drUljyf/0ZPMxYTWZjatP5209fthTZQsJz7/YjbZM3xn6
+vPLy2pmR2dd+zbYG/9J+KiNz+NT6Va3Nee6TqWeaTIPTUc6xyUb3UOy9qqdf4p64
+cL/575dDG1M3+8QZQxfcXw+80/tRrm/orvGBny55mx5UxhtGP70n1O30+Pf4J18t
+bzo09ObN0c6yD+ZDzwS9uhchY7wyp777k0wd8MTHjpzt9bTwR1Z4zIsvXKh/ctli
+M/1iacSO2Rn35Nrm0/2rmE+s/cLhcFtg14Bvp22zV9MPw9c89Qnuq054BUsvSMpy
+VpRs6Fb+A5c3vRk=
+=MEGf
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/davidpicarra
+
+==================================================================
