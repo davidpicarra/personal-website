@@ -14,6 +14,6 @@ export default {
 
 <style lang="scss">
 @import '~bulma';
-$fa-font-path: '~font-awesome/fonts';
-@import '~font-awesome/scss/font-awesome.scss';
+$fa-font-path: '~fork-awesome/fonts';
+@import '~fork-awesome/scss/fork-awesome.scss';
 </style>

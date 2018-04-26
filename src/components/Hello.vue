@@ -1,15 +1,16 @@
 <template>
   <div class="columns is-mobile">
     <div class="column is-half-desktop is-offset-one-quarter-desktop is-dark">
-      <div class="notification has-text-centered">
+      <div class="box has-text-centered">
         <p class="title">David Piçarra</p>
         <p class="subtitle">Full stack developer</p>
         <figure>
           <img src="https://avatars2.githubusercontent.com/u/5445369?s=460&v=4">
         </figure>
         <div class="social">
-          <a href="http://github.com/davidpicarra" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-          <a href="http://linkedin.com/in/davidpicarra" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://github.com/davidpicarra" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+          <a href="https://linkedin.com/in/davidpicarra" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://keybase.io/davidpicarra" target="_blank"><i class="fa fa-keybase" aria-hidden="true"></i></a>
           <a href="mailto:daviddcp@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
         </div>
       </div>
@@ -41,8 +42,10 @@ img {
   font-size: 32px;
   margin: 10px;
   padding: 3px;
+  color: $dark;
 }
 .fa-github-alt:hover { background-color: #221e1b; color: #fff; }
 .fa-linkedin:hover { background-color: #3371b7; color: #fff; }
+.fa-keybase:hover { background-color: rgb(54, 99, 234); color: #fff; }
 .fa-envelope:hover { background-color: #FF4136; color: #fff; }
 </style>
