@@ -1,21 +1,23 @@
 <template>
-  <div class="columns">
-    <div class="column is-half-desktop is-offset-one-quarter-desktop is-two-thirds is-offset-2">
-      <div class="box has-text-centered">
-        <p class="title">David Piçarra</p>
-        <p class="subtitle">Full stack developer</p>
-        <figure>
-          <img src="https://avatars2.githubusercontent.com/u/5445369?s=460&v=4">
-        </figure>
-        <div class="social">
-          <a href="https://github.com/davidpicarra" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
-          <a href="https://linkedin.com/in/davidpicarra" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-          <a href="https://keybase.io/davidpicarra" target="_blank"><i class="fa fa-keybase" aria-hidden="true"></i></a>
-          <a href="mailto:daviddcp@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-        </div>
+  <section class="hero is-fullheight">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+          <div class="box">
+            <p class="title">David Piçarra</p>
+            <p class="subtitle">Full stack developer</p>
+            <figure>
+              <img src="https://avatars2.githubusercontent.com/u/5445369?s=460&v=4">
+            </figure>
+            <div class="social">
+              <a href="https://github.com/davidpicarra" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+              <a href="https://linkedin.com/in/davidpicarra" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+              <a href="https://keybase.io/davidpicarra" target="_blank"><i class="fa fa-keybase" aria-hidden="true"></i></a>
+              <a href="mailto:daviddcp@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            </div>
+          </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -26,6 +28,10 @@ export default {
 
 <style lang="scss">
 @import '~bulma';
+.box {
+  width: 70%;
+  margin-left: 15%;
+}
 img {
   border: 2px solid #fff;
   border-radius: 50%;

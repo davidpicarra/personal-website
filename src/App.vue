@@ -1,9 +1,5 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <router-view></router-view>
-    </div>
-  </section>
+  <router-view></router-view>
 </template>
 
 <script>
