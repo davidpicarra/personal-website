@@ -3,7 +3,9 @@ version: 2
 defaults: &defaults
   working_directory: ~/project/davidpicarra
   docker:
-    - image: circleci/node:9.6
+    - image: circleci/node:latest-browsers
+      environment:
+          CHROME_BIN: "/usr/bin/google-chrome"
 
 jobs:
   install:
