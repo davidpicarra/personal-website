@@ -27,7 +27,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '~bulma';
+@import '~bulma/bulma';
 .box {
   width: 70%;
   margin-left: 15%;
