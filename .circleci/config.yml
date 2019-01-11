@@ -35,7 +35,7 @@ jobs:
       - persist_to_workspace:
           root: ~/project/davidpicarra
           paths:
-            - dist
+            - docs
 
   test:
     <<: *defaults
@@ -43,6 +43,13 @@ jobs:
       - attach_workspace:
           at: ~/project
       - run: yarn test
+
+  deploy:
+    <<: *defaults
+    steps:
+      - attach_workspace:
+          at: ~/project/davidpicarra
+      - run: scp -r docs/* $droplet:~/html
 
 workflows:
   version: 2
@@ -55,3 +62,7 @@ workflows:
       - test:
           requires:
             - install
+      - deploy:
+        requires:
+          - build
+          - test
