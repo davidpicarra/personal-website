@@ -51,7 +51,7 @@ jobs:
           at: ~/project/davidpicarra
       - add_ssh_keys
       - run: |
-          echo 'davidpicarra.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDWw7YC4QA9te0gKgs1Tp+8CKdG/eK343dUhXIDwLU6TUd+zPLdpzSaIh9ZRMyVHXKQEaNOHo2ZN7uWl/mp8iwg=' >> ~/.ssh/known_hosts
+          ssh-keyscan davidpicarra.com >> ~/.ssh/known_hosts
           scp -r docs/* davidpicarra.com:~/html
 
 workflows:
