@@ -44,13 +44,6 @@ jobs:
           at: ~/project
       - run: yarn test
 
-  deploy:
-    <<: *defaults
-    steps:
-      - attach_workspace:
-          at: ~/project/davidpicarra
-      - run: scp -r -o StrictHostKeyChecking=no dist/* $droplet:~/html
-
 workflows:
   version: 2
   install-and-parallel-build-test:
@@ -62,7 +55,3 @@ workflows:
       - test:
           requires:
             - install
-      - deploy:
-          requires:
-            - build
-            - test
