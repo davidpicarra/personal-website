@@ -50,8 +50,8 @@ jobs:
       - attach_workspace:
           at: ~/project/davidpicarra
       - run: |
-        echo 'davidpicarra.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDWw7YC4QA9te0gKgs1Tp+8CKdG/eK343dUhXIDwLU6TUd+zPLdpzSaIh9ZRMyVHXKQEaNOHo2ZN7uWl/mp8iwg=' >> ~/.ssh/known_hosts
-        scp -r docs/* davidpicarra.com:~/html
+          echo 'davidpicarra.com ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDWw7YC4QA9te0gKgs1Tp+8CKdG/eK343dUhXIDwLU6TUd+zPLdpzSaIh9ZRMyVHXKQEaNOHo2ZN7uWl/mp8iwg=' >> ~/.ssh/known_hosts
+          scp -r docs/* davidpicarra.com:~/html
 
 workflows:
   version: 2
