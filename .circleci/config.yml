@@ -52,7 +52,7 @@ jobs:
       - add_ssh_keys
       - run: |
           ssh-keyscan davidpicarra.com >> ~/.ssh/known_hosts
-          scp -r docs/* davidpicarra.com:~/html
+          scp -r dist/* davidpicarra.com:~/html
 
 workflows:
   version: 2
