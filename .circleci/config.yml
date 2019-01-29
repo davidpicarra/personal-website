@@ -35,7 +35,7 @@ jobs:
       - persist_to_workspace:
           root: ~/project/davidpicarra
           paths:
-            - docs
+            - dist
 
   test:
     <<: *defaults
