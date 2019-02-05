@@ -65,10 +65,10 @@ workflows:
       - test:
           requires:
             - install
-      - deploy:
-          requires:
-            - build
-            - test
-          filters:
-            branches:
-              only: master
+      # - deploy:
+      #     requires:
+      #       - build
+      #       - test
+      #     filters:
+      #       branches:
+      #         only: master
