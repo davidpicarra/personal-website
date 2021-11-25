@@ -4,7 +4,7 @@
       <div class="container has-text-centered">
         <div class="box">
           <p class="title">David Piçarra</p>
-          <p class="subtitle">Full stack developer</p>
+          <p class="subtitle">Lead Full Stack Engineer</p>
           <figure>
             <img src="https://avatars2.githubusercontent.com/u/5445369?s=460&v=4">
           </figure>
